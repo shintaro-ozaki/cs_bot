@@ -684,3 +684,18 @@ the particular case of spatial reasoning (which is a fundamental aspect of
 commonsense reasoning). We conclude with some suggestions for future work both
 to improve the capabilities of language models and to systematise this kind of
 dialectical evaluation.
+<br>http://arxiv.org/abs/2304.11164v1
+Dialectical language model evaluation: An initial appraisal of the commonsense spatial reasoning abilities of LLMs
+Language models have become very popular recently and many claims have been
+made about their abilities, including for commonsense reasoning. Given the
+increasingly better results of current language models on previous static
+benchmarks for commonsense reasoning, we explore an alternative dialectical
+evaluation. The goal of this kind of evaluation is not to obtain an aggregate
+performance value but to find failures and map the boundaries of the system.
+Dialoguing with the system gives the opportunity to check for consistency and
+get more reassurance of these boundaries beyond anecdotal evidence. In this
+paper we conduct some qualitative investigations of this kind of evaluation for
+the particular case of spatial reasoning (which is a fundamental aspect of
+commonsense reasoning). We conclude with some suggestions for future work both
+to improve the capabilities of language models and to systematise this kind of
+dialectical evaluation.
