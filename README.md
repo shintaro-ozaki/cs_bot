@@ -699,3 +699,21 @@ the particular case of spatial reasoning (which is a fundamental aspect of
 commonsense reasoning). We conclude with some suggestions for future work both
 to improve the capabilities of language models and to systematise this kind of
 dialectical evaluation.
+<br>http://arxiv.org/abs/2402.17302v2
+Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
+Large Language Models (LLMs) are increasingly being used to generate
+synthetic data for training and evaluating models. However, it is unclear
+whether they can generate a good quality of question answering (QA) dataset
+that incorporates knowledge and cultural nuance embedded in a language,
+especially for low-resource languages. In this study, we investigate the
+effectiveness of using LLMs in generating culturally relevant commonsense QA
+datasets for Indonesian and Sundanese languages. To do so, we create datasets
+for these languages using various methods involving both LLMs and human
+annotators, resulting in ~4.5K questions per language (~9K in total), making
+our dataset the largest of its kind. Our experiments show that automatic data
+adaptation from an existing English dataset is less effective for Sundanese.
+Interestingly, using the direct generation method on the target language, GPT-4
+Turbo can generate questions with adequate general knowledge in both languages,
+albeit not as culturally 'deep' as humans. We also observe a higher occurrence
+of fluency errors in the Sundanese dataset, highlighting the discrepancy
+between medium- and lower-resource languages.
