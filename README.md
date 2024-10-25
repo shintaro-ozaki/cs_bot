@@ -2809,3 +2809,14 @@ commonsense persona knowledge linkers. Additionally, our top-performing model,
 Derberta-SynCPKL, secured first place in the CPKL challenge by a 16%
 improvement in F1 score. We released both SynCPKL and Derberta-SynCPKL at
 https://github.com/irislin1006/CPKL.
+<br>http://arxiv.org/abs/2410.14897v1
+From Test-Taking to Test-Making: Examining LLM Authoring of Commonsense Assessment Items
+LLMs can now perform a variety of complex writing tasks. They also excel in
+answering questions pertaining to natural language inference and commonsense
+reasoning. Composing these questions is itself a skilled writing task, so in
+this paper we consider LLMs as authors of commonsense assessment items. We
+prompt LLMs to generate items in the style of a prominent benchmark for
+commonsense reasoning, the Choice of Plausible Alternatives (COPA). We examine
+the outcome according to analyses facilitated by the LLMs and human annotation.
+We find that LLMs that succeed in answering the original COPA benchmark are
+also more successful in authoring their own items.
