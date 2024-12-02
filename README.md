@@ -3424,3 +3424,14 @@ the particular case of spatial reasoning (which is a fundamental aspect of
 commonsense reasoning). We conclude with some suggestions for future work both
 to improve the capabilities of language models and to systematise this kind of
 dialectical evaluation.
+<br>http://arxiv.org/abs/2410.14897v1
+From Test-Taking to Test-Making: Examining LLM Authoring of Commonsense Assessment Items
+LLMs can now perform a variety of complex writing tasks. They also excel in
+answering questions pertaining to natural language inference and commonsense
+reasoning. Composing these questions is itself a skilled writing task, so in
+this paper we consider LLMs as authors of commonsense assessment items. We
+prompt LLMs to generate items in the style of a prominent benchmark for
+commonsense reasoning, the Choice of Plausible Alternatives (COPA). We examine
+the outcome according to analyses facilitated by the LLMs and human annotation.
+We find that LLMs that succeed in answering the original COPA benchmark are
+also more successful in authoring their own items.
