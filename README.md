@@ -6008,3 +6008,14 @@ Furthermore, this robustness varies depending on the language in which the LLM
 is tested. This work establishes a high-quality evaluation benchmark, with
 extensive experiments offering valuable insights to the community in
 commonsense reasoning for LLMs.
+<br>http://arxiv.org/abs/2410.14897v1
+From Test-Taking to Test-Making: Examining LLM Authoring of Commonsense Assessment Items
+LLMs can now perform a variety of complex writing tasks. They also excel in
+answering questions pertaining to natural language inference and commonsense
+reasoning. Composing these questions is itself a skilled writing task, so in
+this paper we consider LLMs as authors of commonsense assessment items. We
+prompt LLMs to generate items in the style of a prominent benchmark for
+commonsense reasoning, the Choice of Plausible Alternatives (COPA). We examine
+the outcome according to analyses facilitated by the LLMs and human annotation.
+We find that LLMs that succeed in answering the original COPA benchmark are
+also more successful in authoring their own items.
