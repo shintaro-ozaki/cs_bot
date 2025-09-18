@@ -8338,3 +8338,24 @@ Turbo can generate questions with adequate general knowledge in both languages,
 albeit not as culturally 'deep' as humans. We also observe a higher occurrence
 of fluency errors in the Sundanese dataset, highlighting the discrepancy
 between medium- and lower-resource languages.
+<br>http://arxiv.org/abs/2503.07020v1
+Combating Partial Perception Deficit in Autonomous Driving with Multimodal LLM Commonsense
+Partial perception deficits can compromise autonomous vehicle safety by
+disrupting environmental understanding. Current protocols typically respond
+with immediate stops or minimal-risk maneuvers, worsening traffic flow and
+lacking flexibility for rare driving scenarios. In this paper, we propose
+LLM-RCO, a framework leveraging large language models to integrate human-like
+driving commonsense into autonomous systems facing perception deficits. LLM-RCO
+features four key modules: hazard inference, short-term motion planner, action
+condition verifier, and safety constraint generator. These modules interact
+with the dynamic driving environment, enabling proactive and context-aware
+control actions to override the original control policy of autonomous agents.
+To improve safety in such challenging conditions, we construct DriveLM-Deficit,
+a dataset of 53,895 video clips featuring deficits of safety-critical objects,
+complete with annotations for LLM-based hazard inference and motion planning
+fine-tuning. Extensive experiments in adverse driving conditions with the CARLA
+simulator demonstrate that systems equipped with LLM-RCO significantly improve
+driving performance, highlighting its potential for enhancing autonomous
+driving resilience against adverse perception deficits. Our results also show
+that LLMs fine-tuned with DriveLM-Deficit can enable more proactive movements
+instead of conservative stops in the context of perception deficits.
