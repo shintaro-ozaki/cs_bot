@@ -8683,3 +8683,23 @@ commonsense persona knowledge linkers. Additionally, our top-performing model,
 Derberta-SynCPKL, secured first place in the CPKL challenge by a 16%
 improvement in F1 score. We released both SynCPKL and Derberta-SynCPKL at
 https://github.com/irislin1006/CPKL.
+<br>http://arxiv.org/abs/2410.23844v1
+Commonsense Knowledge Editing Based on Free-Text in LLMs
+Knowledge editing technology is crucial for maintaining the accuracy and
+timeliness of large language models (LLMs) . However, the setting of this task
+overlooks a significant portion of commonsense knowledge based on free-text in
+the real world, characterized by broad knowledge scope, long content and non
+instantiation. The editing objects of previous methods (e.g., MEMIT) were
+single token or entity, which were not suitable for commonsense knowledge in
+free-text form. To address the aforementioned challenges, we conducted
+experiments from two perspectives: knowledge localization and knowledge
+editing. Firstly, we introduced Knowledge Localization for Free-Text(KLFT)
+method, revealing the challenges associated with the distribution of
+commonsense knowledge in MLP and Attention layers, as well as in decentralized
+distribution. Next, we propose a Dynamics-aware Editing Method(DEM), which
+utilizes a Dynamics-aware Module to locate the parameter positions
+corresponding to commonsense knowledge, and uses Knowledge Editing Module to
+update knowledge. The DEM method fully explores the potential of the MLP and
+Attention layers, and successfully edits commonsense knowledge based on
+free-text. The experimental results indicate that the DEM can achieve excellent
+editing performance.
