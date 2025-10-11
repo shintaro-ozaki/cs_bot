@@ -8759,3 +8759,19 @@ performance of the LLMs on the cultural commonsense task (up to 75% accuracy
 deterioration). These results highlight the importance of developing debiasing
 methods that consider the trade-off with cultural commonsense to improve
 fairness and utility of LLMs.
+<br>http://arxiv.org/abs/2509.06401v1
+Do LLMs exhibit the same commonsense capabilities across languages?
+This paper explores the multilingual commonsense generation abilities of
+Large Language Models (LLMs). To facilitate this investigation, we introduce
+MULTICOM, a novel benchmark that extends the COCOTEROS dataset to four
+languages: English, Spanish, Dutch, and Valencian. The task involves generating
+a commonsensical sentence that includes a given triplet of words. We evaluate a
+range of open-source LLMs, including LLaMA, Qwen, Gemma, EuroLLM, and
+Salamandra, on this benchmark. Our evaluation combines automatic metrics,
+LLM-as-a-judge approaches (using Prometheus and JudgeLM), and human
+annotations. Results consistently show superior performance in English, with
+significantly lower performance in less-resourced languages. While contextual
+support yields mixed results, it tends to benefit underrepresented languages.
+These findings underscore the current limitations of LLMs in multilingual
+commonsense generation. The dataset is publicly available at
+https://huggingface.co/datasets/gplsi/MULTICOM.
