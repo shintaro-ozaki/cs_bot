@@ -8926,3 +8926,23 @@ driving performance, highlighting its potential for enhancing autonomous
 driving resilience against adverse perception deficits. Our results also show
 that LLMs fine-tuned with DriveLM-Deficit can enable more proactive movements
 instead of conservative stops in the context of perception deficits.
+<br>http://arxiv.org/abs/2509.19265v1
+Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World
+Large language models (LLMs) often reflect Western-centric biases, limiting
+their effectiveness in diverse cultural contexts. Although some work has
+explored cultural alignment, the potential for cross-cultural transfer, using
+alignment in one culture to improve performance in others, remains
+underexplored. This paper investigates cross-cultural transfer of commonsense
+reasoning in the Arab world, where linguistic and historical similarities
+coexist with local cultural differences. Using a culturally grounded
+commonsense reasoning dataset covering 13 Arab countries, we evaluate
+lightweight alignment methods such as in-context learning and
+demonstration-based reinforcement (DITTO), alongside baselines like supervised
+fine-tuning and direct preference optimization. Our results show that merely 12
+culture-specific examples from one country can improve performance in others by
+10\% on average, within multilingual models. In addition, we demonstrate that
+out-of-culture demonstrations from Indonesia and US contexts can match or
+surpass in-culture alignment for MCQ reasoning, highlighting cultural
+commonsense transferability beyond the Arab world. These findings demonstrate
+that efficient cross-cultural alignment is possible and offer a promising
+approach to adapt LLMs to low-resource cultural settings.
