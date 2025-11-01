@@ -9102,3 +9102,17 @@ Furthermore, this robustness varies depending on the language in which the LLM
 is tested. This work establishes a high-quality evaluation benchmark, with
 extensive experiments offering valuable insights to the community in
 commonsense reasoning for LLMs.
+<br>http://arxiv.org/abs/2509.18063v1
+ARK-V1: An LLM-Agent for Knowledge Graph Question Answering Requiring Commonsense Reasoning
+Large Language Models (LLMs) show strong reasoning abilities but rely on
+internalized knowledge that is often insufficient, outdated, or incorrect when
+trying to answer a question that requires specific domain knowledge. Knowledge
+Graphs (KGs) provide structured external knowledge, yet their complexity and
+multi-hop reasoning requirements make integration challenging. We present
+ARK-V1, a simple KG-agent that iteratively explores graphs to answer natural
+language queries. We evaluate several not fine-tuned state-of-the art LLMs as
+backbones for ARK-V1 on the CoLoTa dataset, which requires both KG-based and
+commonsense reasoning over long-tail entities. ARK-V1 achieves substantially
+higher conditional accuracies than Chain-of-Thought baselines, and larger
+backbone models show a clear trend toward better coverage, correctness, and
+stability.
