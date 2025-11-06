@@ -9180,3 +9180,21 @@ commonsense reasoning over long-tail entities. ARK-V1 achieves substantially
 higher conditional accuracies than Chain-of-Thought baselines, and larger
 backbone models show a clear trend toward better coverage, correctness, and
 stability.
+<br>http://arxiv.org/abs/2509.24468v1
+Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset
+Large language models (LLMs) exhibit social biases, prompting the development
+of various debiasing methods. However, debiasing methods may degrade the
+capabilities of LLMs. Previous research has evaluated the impact of bias
+mitigation primarily through tasks measuring general language understanding,
+which are often unrelated to social biases. In contrast, cultural commonsense
+is closely related to social biases, as both are rooted in social norms and
+values. The impact of bias mitigation on cultural commonsense in LLMs has not
+been well investigated. Considering this gap, we propose SOBACO (SOcial BiAs
+and Cultural cOmmonsense benchmark), a Japanese benchmark designed to evaluate
+social biases and cultural commonsense in LLMs in a unified format. We evaluate
+several LLMs on SOBACO to examine how debiasing methods affect cultural
+commonsense in LLMs. Our results reveal that the debiasing methods degrade the
+performance of the LLMs on the cultural commonsense task (up to 75% accuracy
+deterioration). These results highlight the importance of developing debiasing
+methods that consider the trade-off with cultural commonsense to improve
+fairness and utility of LLMs.
